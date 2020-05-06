@@ -207,9 +207,7 @@ if (request.getParameter("PID") != null) {
         </div>
         
         <!-- Modal footer -->
-        <div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-        </div>
+       
         
       </div>
     </div>
@@ -219,6 +217,40 @@ if (request.getParameter("PID") != null) {
 		PatientRegister  phobj = new PatientRegister();
 	out.print( phobj.readItems());
 	%>
+	
+	<!-----fotter------>
+              					
+              		           <div class="container-fluid bg-dark text-white pt-5 pb-3">
+              		        <div class="container">
+              		            <div class="row">
+              		                <div class="col-sm-6 but">
+              		                    <button class="btn btn-success" onclick="update()">Current Updates</button>
+
+              		                    <button class="btn btn-outline-info">Contact Us</button>
+
+              		                    <button class="btn btn-outline-info">About Us</button>
+              		                </div>
+
+              		                <div class="col-sm-6 text-right">
+              		                    <i class="fab fa-facebook-square ml-4 display-4"></i>
+
+              		                    <i class="fab fa-youtube ml-4 display-4"></i>
+
+              		                    <i class="fab fa-twitter ml-4 display-4"></i>
+
+              		                    <i class="fab fa-google-plus-g ml-4 display-4"></i>
+              		                </div>
+              		            </div>
+              		            <div class="row">
+              		                <div class="col text-center h6">
+              		                    &copy; All Rights Reserved.
+              		                </div>
+              		            </div>
+              		        </div>
+              		    </div>
+              		    
+              		    </footer>
+	
 	<script>
 	$(document).ready(function() {
 
