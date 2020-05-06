@@ -110,44 +110,7 @@
   </div>
 
  <!-- ==================================================================================================== -->
-  <div class="bd-example">
-    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-      </ol>
-   
-   <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="C:\Users\Anjana Lakshan\Downloads\Lab09\Img\PAF/2.png" class="d-block " alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h1 style="font-family:Trebuchet MS;font-size:300%">Patient</h1>           
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="C:\Users\Anjana Lakshan\Downloads\Lab09\Img\PAF/3.jpg" class="d-block " alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h1 style="font-family:Trebuchet MS;font-size:300%">Patient</h1>            
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="C:\Users\Anjana Lakshan\Downloads\Lab09\Img\PAF/4.jpg" class="d-block " alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h1 style="font-family:Trebuchet MS;font-size:300%">Patient</h1>          
-          </div>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-  </div>
+ 
 
 
 <br>
@@ -244,6 +207,39 @@
               					function myFunction3() {
                 					alert("Cleared Sucessful...");
               				}
+              					
+              					<!-----fotter------>
+              					
+              		           <div class="container-fluid bg-dark text-white pt-5 pb-3">
+              		        <div class="container">
+              		            <div class="row">
+              		                <div class="col-sm-6 but">
+              		                    <button class="btn btn-success" onclick="update()">Current Updates</button>
+
+              		                    <button class="btn btn-outline-info">Contact Us</button>
+
+              		                    <button class="btn btn-outline-info">About Us</button>
+              		                </div>
+
+              		                <div class="col-sm-6 text-right">
+              		                    <i class="fab fa-facebook-square ml-4 display-4"></i>
+
+              		                    <i class="fab fa-youtube ml-4 display-4"></i>
+
+              		                    <i class="fab fa-twitter ml-4 display-4"></i>
+
+              		                    <i class="fab fa-google-plus-g ml-4 display-4"></i>
+              		                </div>
+              		            </div>
+              		            <div class="row">
+              		                <div class="col text-center h6">
+              		                    &copy; All Rights Reserved.
+              		                </div>
+              		            </div>
+              		        </div>
+              		    </div>
+              		    
+              		    </footer>
             				</script>
 
             				<script>
@@ -306,6 +302,8 @@
 	<!-- Jquery JS-->
 	<script src="vendor/jquery/jquery.min.js"></script>
 	<!-- Vendor JS-->
+	
+	
 					
 <!-- =================================================================================================== -->
 	<!-- Jquery JS-->

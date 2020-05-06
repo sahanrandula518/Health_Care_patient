@@ -34,7 +34,7 @@
 <!-- Main CSS-->
   
   </head>
-  <style>
+  <style>  
   .mySlides {
     display: none
   }
@@ -87,19 +87,19 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="C:\Users\Hp\Desktop\Patient API\WebContent\Img\PAF.jpg" class="d-block " alt="...">
+          <img src="./Img/PAF/1.png" class="d-block " alt="..."/>
           <div class="carousel-caption d-none d-md-block">
             <h1 style="font-family:Trebuchet MS;font-size:300%">Patient</h1>           
           </div>
         </div>
         <div class="carousel-item">
-          <img src="C:\Users\Hp\Desktop\Patient API\WebContent\Img\PAF.jpg" class="d-block " alt="...">
+          <img src="./Img/PAF/2.png" class="d-block " alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h1 style="font-family:Trebuchet MS;font-size:300%">Patient</h1>            
           </div>
         </div>
         <div class="carousel-item">
-          <img src="C:\Users\Anjana Lakshan\Downloads\Lab09\Img\PAF/4.jpg" class="d-block " alt="...">
+          <img src="./Img/PAF/3.jpg" class="d-block " alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h1 style="font-family:Trebuchet MS;font-size:300%">Patient</h1>          
           </div>
@@ -141,8 +141,10 @@
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
           <div class="col-md-6 pt-5 ftco-animate">
           	<div class="mt-5">
-          		<span class="subheading"> <h1>Patient</h1></span>
-	            <h3 class="mb-4">We are here <br>for your Care</h3>
+          		<span class="subheading"> 
+          		<h1>Patient Management</h1>
+          		</span>
+	            <h3 class="mb-4">We Are Here <br>For Your Care</h3>
 	            <p class="mb-4"></p>
 	            <a href="Logincheck.jsp" class="btn btn-primary py-3 px-4">Patient login</a>
 	            <a href="patientreg.jsp" class="btn btn-primary py-3 px-4">Patient Register</a>
@@ -154,22 +156,43 @@
         </div>
       </div>
     </section>
-
+    
+<!-----fotter------>
 		
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-          </div>
+           <div class="container-fluid bg-dark text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 but">
+                    <button class="btn btn-success" onclick="update()">Current Updates</button>
+
+                    <button class="btn btn-outline-info">Contact Us</button>
+
+                    <button class="btn btn-outline-info">About Us</button>
+                </div>
+
+                <div class="col-sm-6 text-right">
+                    <i class="fab fa-facebook-square ml-4 display-4"></i>
+
+                    <i class="fab fa-youtube ml-4 display-4"></i>
+
+                    <i class="fab fa-twitter ml-4 display-4"></i>
+
+                    <i class="fab fa-google-plus-g ml-4 display-4"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center h6">
+                    &copy; All Rights Reserved.
+                </div>
+            </div>
         </div>
-      </div>
+    </div>
+    
     </footer>
     
   
 
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
-
+ 
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/popper.min.js"></script>
