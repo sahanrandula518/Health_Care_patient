@@ -101,19 +101,19 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="C:\Users\Hp\Desktop\Patient API\WebContent\Img\PAF.png" class="d-block " alt="...">
+          <img src="./Img/PAF/1.png" class="d-block " alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h1 style="font-family:Trebuchet MS;font-size:300%">Patient</h1>           
           </div>
         </div>
         <div class="carousel-item">
-          <img src="C:\Users\Hp\Desktop\Patient API\WebContent\Img\PAF.jpg" class="d-block " alt="...">
+          <img src="./Img/PAF/1.png" class="d-block " alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h1 style="font-family:Trebuchet MS;font-size:300%">Patient</h1>            
           </div>
         </div>
         <div class="carousel-item">
-          <img src="C:\Users\Anjana Lakshan\Downloads\Lab09\Img\PAF/4.jpg" class="d-block " alt="...">
+          <img src="./Img/PAF/1.png" class="d-block " alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h1 style="font-family:Trebuchet MS;font-size:300%">Patient</h1>          
           </div>
@@ -134,24 +134,26 @@
     <div class="row">
     			 <div class="col-3"></div>
 				 <div class="col-6"
-				 	style="width: 120rem; margin-bottom:15%; margin-top: 3%; height: 42rem; background-color: rgb(156, 68, 68,0.1);border: 1px solid black;border-radius: 12px">
+				 	style="width: 120rem; margin-bottom:15%; margin-top: 3%; height: 20rem; background-color: rgb(156, 68, 68,0.1);border: 1px solid black;border-radius: 12px">
 
 				<form class="form-group text-left" method="post"
 					action="Logincheck">
 					
-			<label for="exampleInputEmail1">Patient Login</label>
-					<div class="wrap-input100 validate-input"
+			 	<div style=text-align:center;>
+   					 <h1>Patient Login Form</h1>
+  				</div>
+					<div class="form-group text-left"
 						data-validate="Valid ID Number is required">
-						<input class="input100" type="text" aria-describedby="numHelp" placeholder="Enter Patient ID" name="id"
+						<input class="form-control" type="text" aria-describedby="numHelp" placeholder="Enter Patient ID" name="id"
 							placeholder="ID Number"> <span class="focus-input100"></span>
 						<span class="symbol-input100"> <i class="fa fa-envelope"
 							aria-hidden="true"></i>
 						</span>
 					</div>
 
-					<div class="wrap-input100 validate-input"
+					<div class="form-group text-left"
 						data-validate="Password is required">
-						<input class="input100" type="password" name="pass"
+						<input class="form-control" type="password" name="pass"
 							placeholder="Password"> <span class="focus-input100"></span>
 						<span class="symbol-input100"> <i class="fa fa-lock"
 							aria-hidden="true"></i>
@@ -165,9 +167,43 @@
 					</div>
 
 				</form>
+				
+				
 			</div>
 		</div>
 	</div>
+	<!-----fotter------>
+		
+           <div class="container-fluid bg-dark text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 but">
+                    <button class="btn btn-success" onclick="update()">Current Updates</button>
+
+                    <button class="btn btn-outline-info">Contact Us</button>
+
+                    <button class="btn btn-outline-info">About Us</button>
+                </div>
+
+                <div class="col-sm-6 text-right">
+                    <i class="fab fa-facebook-square ml-4 display-4"></i>
+
+                    <i class="fab fa-youtube ml-4 display-4"></i>
+
+                    <i class="fab fa-twitter ml-4 display-4"></i>
+
+                    <i class="fab fa-google-plus-g ml-4 display-4"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center h6">
+                    &copy; All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    </footer>
 
 
 <!-- =================================================================================================== -->
